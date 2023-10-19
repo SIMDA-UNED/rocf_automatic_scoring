@@ -1,0 +1,11 @@
+__pycache__
+.ipynb_checkpoints
+.spyproject
+data/execution_times
+data/histories
+data/models
+data/predictions
+data/stopping_epochs
+data/weights
+data/n_accuracies
+data/confusion_matrices
