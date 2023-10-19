@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/language-Python-{green}.svg)
 ![](https://img.shields.io/badge/license-GNU-{yellowgreen}.svg)
 
-This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"]() ([JOURNAL Link](), [arXiv Link]()), by [Juan Guerrero Martín et al.](https://github.com/xxx/)
+This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"]() ([JOURNAL Link](), [arXiv Link]()), by [Juan Guerrero Martín et al.](https://github.com/SIMDA-UNED)
 
 ## Requirements
 
@@ -24,7 +24,7 @@ All the following codes can run on a single Tesla V100S GPU.
 ```
 # 1. Choose your workspace and download our repository.
 cd ${CUSTOMIZED_WORKSPACE}
-git clone https://github.com/xxx/rocf_automatic_scoring
+git clone https://github.com/SIMDA-UNED/rocf_automatic_scoring.git
 
 # 2. Enter the directory.
 cd rocf_automatic_scoring
@@ -34,7 +34,7 @@ cd rocf_automatic_scoring
 Directory with the ROCFD528 dataset:
 /home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528_binarize_label_split/all_classes/
 
-Directory with the QD dataset:
+Directory with the QD subset:
 /home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/quickdraw_dataset_2_0_414k_binarize_tvt_split_345/
 
 # 4. Execute any of our scripts.
@@ -91,7 +91,7 @@ If you find this code useful to your research, please cite our paper as the foll
 
 ```
 @article{guerrero2023rocf,
-  title={A Benchmark for Rey-Osterrieth Complex Figure Automatic Scoring},
+  title={A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring},
   author={Guerrero, Juan and Rincón, Mariano},
   journal={XXX},
   year={2023},
@@ -105,7 +105,7 @@ This project is licensed under the GNU General Public License v3.0.
 
 ## Acknowledgement
 
-The authors gratefully acknowledge to research project CPP2021-009109 and an FPI-UNED-2021 scholarship.
+The authors gratefully acknowledge to research project CPP2021-009109 and a FPI-UNED-2021 scholarship.
 
 ## Contact
 
