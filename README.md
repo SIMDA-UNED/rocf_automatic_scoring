@@ -7,17 +7,17 @@ This code repository is the official source code of the paper ["A Benchmark for 
 
 ## Requirements
 
-GNU/Linux Debian 11 (bullseye=stable 2021-08-14)
+Operating system: GNU/Linux Debian 11 (bullseye=stable 2021-08-14)
 
-Python 3.9.2
+Hardware environment: 40 Intel(R) Xeon(R) Silver 4210 CPU @ 2.20Ghz, 100 GB RAM, 2 Tesla V100 GPUs, 2 Tesla V100S GPUs. All the following codes can run on a single Tesla V100S GPU.
 
-TensorFlow + Keras 2.7.0
+Programming language: Python 3.9.2
 
-How to install (clone) our environment will be detailed in the following.
+Programming libraries: TensorFlow + Keras 2.7.0
 
-Our hardware environment: 40 Intel(R) Xeon(R) Silver 4210 CPU @ 2.20Ghz, 100 GB RAM, 2 Tesla V100 GPUs, 2 Tesla V100S GPUs.
+Please, download the ROCFD528 and QDSD414k datasets from the following website: http://www.simda.uned.es/rocf_automatic_scoring/index.html
 
-All the following codes can run on a single Tesla V100S GPU.
+How to clone and use our environment will be detailed in the following.
 
 ## Usage
 
@@ -29,12 +29,12 @@ git clone https://github.com/SIMDA-UNED/rocf_automatic_scoring.git
 # 2. Enter the directory.
 cd rocf_automatic_scoring
 
-# 3. Download the datasets (e-cienciaDatos).
+# 3. Make sure that the datasets are downloaded.
 
-Directory with the ROCFD528 dataset:
+Default directory with the ROCFD528 dataset:
 /home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528_binarize_label_split/all_classes/
 
-Directory with the QD subset:
+Default directory with the QDSD414k dataset:
 /home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/quickdraw_dataset_2_0_414k_binarize_tvt_split_345/
 
 # 4. Execute any of our scripts.
