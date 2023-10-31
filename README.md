@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/language-Python-{green}.svg)
 ![](https://img.shields.io/badge/license-GNU-{yellowgreen}.svg)
 
-This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"]() ([JOURNAL Link](), [arXiv Link]()), by [Juan Guerrero Martín et al.](https://github.com/SIMDA-UNED)
+This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"](http://www.simda.uned.es/rocf_automatic_scoring/index.html) by [Juan Guerrero Martín et al.](http://www.simda.uned.es/)
 
 ## Requirements
 
@@ -90,13 +90,7 @@ ENB1 - TL - QD | 0.804 | 0.639 | 4.068 | 5.124 | 3.494
 If you find this code useful to your research, please cite our paper as the following bibtex:
 
 ```
-@article{guerrero2023rocf,
-  title={A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring},
-  author={Guerrero, Juan and Rincón, Mariano},
-  journal={XXX},
-  year={2023},
-  publisher={XXX}
-}
+TBA
 ```
 
 ## License
