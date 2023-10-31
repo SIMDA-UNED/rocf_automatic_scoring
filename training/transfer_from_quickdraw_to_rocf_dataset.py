@@ -31,7 +31,7 @@ Part 2. Argument parser.
 '''
 
 parser = argparse.ArgumentParser( description = 'transfer_from_quickdraw_to_rocf_dataset' )
-parser.add_argument( "--dataset_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528.pickle", help = "Pickle with the ROCFD528 dataset." )
+parser.add_argument( "--dataset_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528.pickle", help = "Pickle with the ROCFD528 dataset." )
 parser.add_argument( "--fold_info_dir", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/dataset_information/rocfd528_fold_information/", help = "Directory with fold information of ROCFD528 dataset." )
 parser.add_argument( "--pretrained_weights_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/weights/classification_SaN_with_QD_2_0_i0/classification_SaN_with_QD_2_0_i0-0089.hdf5", help = "Weights of the pre-trained model." )
 parser.add_argument( "--output_model_dir", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/models/", help = "Directory where to save the partial models." )

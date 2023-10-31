@@ -31,7 +31,7 @@ Part 2. Argument parser.
 '''
 
 parser = argparse.ArgumentParser( description = 'train_model_with_quickdraw' )
-parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/quickdraw_dataset_2_0_414k_binarize_tvt_split_345/", help = "Directory with the QD dataset." )
+parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/qdsd414k/", help = "Directory with the QD dataset." )
 parser.add_argument( "--output_weight_dir", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/weights/", help = "Directory where to save the partial model weights." )
 parser.add_argument( "--histories_dir", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/histories/", help = "Directory where to save the histories." )
 parser.add_argument( "--model_type", type = str, default = "SaN", help = "Choosing the model to be used for training. Options: SaN, MN2, IC3, ENB1." )

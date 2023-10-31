@@ -30,7 +30,7 @@ Part 2. Argument parser.
 '''
 
 parser = argparse.ArgumentParser( description = 'predict_with_rocf_dataset' )
-parser.add_argument( "--dataset_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528.pickle", help = "Pickle with the ROCFD528 dataset." )
+parser.add_argument( "--dataset_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528.pickle", help = "Pickle with the ROCFD528 dataset." )
 parser.add_argument( "--fold_info_dir", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/dataset_information/rocfd528_fold_information/", help = "Directory with fold information of ROCFD528 dataset." )
 parser.add_argument( "--pretrained_models_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/models/regression_TL_MN2_with_QD_2_0_to_RD_3_0_i0/", help = "Directory with the pre-trained models." )
 parser.add_argument( "--stopping_epochs_path", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/stopping_epochs/SE_regression_TL_MN2_with_QD_2_0_to_RD_3_0_i0_16folds.csv", help = "CSV with stopping epochs for the 16 models." )

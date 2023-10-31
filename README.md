@@ -15,7 +15,7 @@ Programming language: Python 3.9.2
 
 Programming libraries: TensorFlow + Keras 2.7.0
 
-Please, download the ROCFD528 and QDSD414k datasets from the following website: http://www.simda.uned.es/rocf_automatic_scoring/index.html
+Please, download the ROCFD528 and QDSD414k datasets from the following website: http://www.simda.uned.es/rocf_automatic_scoring/index.html. Make sure to convert the ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
 
 How to clone and use our environment will be detailed in the following.
 
@@ -32,10 +32,10 @@ cd rocf_automatic_scoring
 # 3. Make sure that the datasets are downloaded.
 
 Default directory with the ROCFD528 dataset:
-/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528_binarize_label_split/all_classes/
+/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528/
 
 Default directory with the QDSD414k dataset:
-/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/quickdraw_dataset_2_0_414k_binarize_tvt_split_345/
+/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/qdsd414k/
 
 # 4. Execute any of our scripts.
 

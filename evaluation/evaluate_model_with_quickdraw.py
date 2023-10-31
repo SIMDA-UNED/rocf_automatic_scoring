@@ -29,7 +29,7 @@ Part 2. Argument parser.
 '''
 
 parser = argparse.ArgumentParser( description = 'evaluate_model_with_quickdraw' )
-parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/quickdraw_dataset_2_0_414k_binarize_tvt_split_345/", help = "Directory with the QD dataset." )
+parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/qdsd414k/", help = "Directory with the QD dataset." )
 parser.add_argument( "--pretrained_weights_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/weights/classification_SaN_with_QD_2_0_i0/classification_SaN_with_QD_2_0_i0-0089.hdf5", help = "Weights of the pre-trained model." )
 parser.add_argument( "--model_type", type = str, default = "SaN", help = "Choosing the model to be used for training. Options: SaN, MN2, IC3, ENB1." )
 parser.add_argument( "--execution_iteration", type = int, default = 0, help = "Execution iteration." )

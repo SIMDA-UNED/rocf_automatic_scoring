@@ -25,9 +25,9 @@ Part 2. Argument parser.
 
 parser = argparse.ArgumentParser( description = 'dataset_to_pickle' )
 
-parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528_binarize_label_split/all_classes/", help = "Directory with the ROCFD528 dataset." )
+parser.add_argument( "--dataset_dir", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528/", help = "Directory with the ROCFD528 dataset." )
 parser.add_argument( "--dataset_information_path", type = str, default = "/home/jguerrero/Desarrollo/rocf_automatic_scoring/data/dataset_information/rocfd528_information.csv", help = "CSV with ROCFD528 dataset information." )
-parser.add_argument( "--output_pickle_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocf_RD_3_0_528.pickle", help = "Pickle with ROCFD528 dataset images and information." )
+parser.add_argument( "--output_pickle_path", type = str, default = "/home/jguerrero/Desarrollo/DATA/proyecto_REY/datasets/rocfd528.pickle", help = "Pickle with ROCFD528 dataset images and information." )
 
 args = parser.parse_args( )
 
