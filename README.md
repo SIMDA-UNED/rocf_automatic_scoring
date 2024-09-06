@@ -15,7 +15,7 @@ Programming language: Python 3.9.2
 
 Programming libraries: TensorFlow + Keras 2.7.0
 
-Please, download the ROCFD528 and QDSD414k datasets from the following website: http://www.simda.uned.es/rocf_automatic_scoring/index.html. Make sure to convert the ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
+Please, download the ROCFD528 (binary images) and QDSD414k datasets from the following website: http://www.simda.uned.es/rocf_automatic_scoring/index.html. Make sure to convert the ROCFD528 dataset into a pickle using the script utils/dataset_to_pickle.py.
 
 How to clone and use our environment will be detailed in the following.
 
@@ -90,16 +90,22 @@ ENB1 - TL - QD | 0.804 | 0.639 | 4.068 | 5.124 | 3.494
 If you find this code useful to your research, please cite our paper as the following bibtex:
 
 ```
-Guerrero Martín, Juan and Díaz Mardomingo, María del Carmen and García Herranz, Sara and Martínez Tomás, Rafael and Rincón Zamorano, Mariano, A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring. Available at SSRN: https://ssrn.com/abstract=4839237 or http://dx.doi.org/10.2139/ssrn.4839237 
+article{guerrero2024benchmark,
+  title={A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring},
+  author={Guerrero Mart{\'\i}n, Juan and D{\'\i}az Mardomingo, Mar{\'\i}a del Carmen and Garc{\'\i}a Herranz, Sara and Mart{\'\i}nez Tom{\'a}s, Rafael and Rinc{\'o}n Zamorano, Mariano},
+  journal={Heliyon preprint},
+  year={2024},
+  doi={https://dx.doi.org/10.2139/ssrn.4839237}
+}
 ```
 
 ## License
 
 This project is licensed under the GNU General Public License v3.0.
 
-## Acknowledgement
+## Funding
 
-The authors gratefully acknowledge to research project CPP2021-009109 and a FPI-UNED-2021 scholarship.
+This research has been supported by the CPP2021-009109 project and a FPI-UNED-2021 scholarship.
 
 ## Contact
 
