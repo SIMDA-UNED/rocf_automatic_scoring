@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/language-Python-{green}.svg)
 ![](https://img.shields.io/badge/license-GNU-{yellowgreen}.svg)
 
-This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"](https://dx.doi.org/10.2139/ssrn.4839237) by [Juan Guerrero Martín et al.](http://www.simda.uned.es/)
+This code repository is the official source code of the paper ["A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring"](https://doi.org/10.1016/j.heliyon.2024.e39883) by [Juan Guerrero Martín et al.](http://www.simda.uned.es/)
 
 ## Requirements
 
@@ -90,12 +90,14 @@ ENB1 - TL - QD | 0.804 | 0.639 | 4.068 | 5.124 | 3.494
 If you find this code useful to your research, please cite our paper as the following bibtex:
 
 ```
-article{guerrero2024benchmark,
-  title={A Benchmark for Rey-Osterrieth Complex Figure Test Automatic Scoring},
-  author={Guerrero Mart{\'\i}n, Juan and D{\'\i}az Mardomingo, Mar{\'\i}a del Carmen and Garc{\'\i}a Herranz, Sara and Mart{\'\i}nez Tom{\'a}s, Rafael and Rinc{\'o}n Zamorano, Mariano},
-  journal={Heliyon preprint},
+@article{guerrero2024benchmark,
+  title={A benchmark for Rey-Osterrieth complex figure test automatic scoring},
+  author={Guerrero-Mart{\'\i}n, Juan and D{\'\i}az-Mardomingo, Mar{\'\i}a del Carmen and Garc{\'\i}a-Herranz, Sara and Mart{\'\i}nez-Tom{\'a}s, Rafael and Rinc{\'o}n, Mariano},
+  journal={Heliyon},
+  volume={10},
+  number={21},
   year={2024},
-  doi={https://dx.doi.org/10.2139/ssrn.4839237}
+  publisher={Elsevier}
 }
 ```
 
